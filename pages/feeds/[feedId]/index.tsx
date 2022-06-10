@@ -18,11 +18,6 @@ function DetailPage() {
     setModalOpen(false);
   };
 
-  // return (
-  //   <Modal open={modalOpen} close={closeModal} header="게시글 상세정보">
-  //     <FeedDetail />
-  //   </Modal>
-  // );
   return <FeedDetail />;
 }
 
